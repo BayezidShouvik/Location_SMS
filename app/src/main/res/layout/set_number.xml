@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@drawable/colorwood"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="#A7A7A7"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Set Phone Number"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="30dp"
+        android:background="#4D0076"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/editText" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybuttonset"
+        android:text="Set Number"
+        android:textAllCaps="false"
+        android:onClick="save"/>
+
+
+</LinearLayout>
+

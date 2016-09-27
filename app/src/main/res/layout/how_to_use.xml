@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/color3">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:background="#CE70FF"
+                android:text="1.Press 'Set Phone Number' button.Then enter a phone number and press 'Set Number' button to set a phone number."
+                android:id="@+id/textViewHow1"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:background="#CE70FF"
+                android:text="2.To know the current location and use it press 'Start Fetching Location' button.It would also make the app run in background.So when it is not needed press 'Stop Fetching Location' button to stop the app running in background."
+                android:id="@+id/textViewHow2"
+                android:layout_below="@id/textViewHow1"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:background="#CE70FF"
+                android:text="3.To send SMS with location to the predefined number at an interval of 2 minutes press 'Start Sending Periodic SMS'.Press 'Stop Sending Periodic SMS' to stop this."
+                android:id="@+id/textViewHow3"
+                android:layout_below="@id/textViewHow2"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:background="#CE70FF"
+                android:text="4.To send SMS with location to the predefined number press 'Send SMS Now' button."
+                android:id="@+id/textViewHow4"
+                android:layout_below="@id/textViewHow3"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:background="#CE70FF"
+                android:text="5.To see the saved phone number press 'Show Phone Number' button."
+                android:id="@+id/textViewHow5"
+                android:layout_below="@id/textViewHow4"/>
+
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:background="#CE70FF"
+            android:text="6.To send SMS with location to the predefined number shake the phone.It can also be done when the app is not running in the foreground."
+            android:id="@+id/textViewHow6"
+            android:layout_below="@id/textViewHow5"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:background="#CE70FF"
+                android:text="7.To send SMS with location to the predefined number long press the volume down button only when the app is running in the foreground."
+                android:id="@+id/textViewHow7"
+                android:layout_below="@id/textViewHow6"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:background="#CE70FF"
+                android:text="8.The app can also be launched from dialpad by dialing #258#."
+                android:id="@+id/textViewHow8"
+                android:layout_below="@id/textViewHow7"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
